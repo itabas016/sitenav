@@ -1,0 +1,97 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    border: none;
+    margin: .5em;
+}
+
+#wb-bg{
+    position: fixed; 
+    width:100%; 
+    height:100%; 
+    z-index:-1
+}
+#wb-content{
+    background-color: #aaa;
+    position:fixed;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin-left: 50%
+
+}
+.bg-img{
+    height: 100%; 
+    width: 100%
+}
+.fa-4x{
+    font-size: 5em
+}
+.fa-2x{
+    font-size: 2em
+}
+.site-link{
+    height: 118px;
+    margin: .2em 4em .5em 0;
+    text-align: center;
+}
+.social-link{
+    height: 48px;
+    margin: .5em .5em 0 1.5em;
+}
+.site{
+}
+.icon{
+    padding-top: .5em;
+    border-radius:50%;
+    -webkit-background-size: 96px 96px;
+    height: 96px;
+    width: 96px;
+}
+a:link { 
+    color: grey;
+}
+.fa-wikipedia-w:hover {
+    color: #666699;
+}
+.fa-bars:hover {
+    color: #0099ff;
+}
+.fa-tree:hover {
+    color: #00802b;
+}
+.fa-facebook:hover {
+    color: #3B5998;
+}
+.fa-twitter:hover {
+    color: #55acee;
+}
+.fa-instagram:hover {
+    color: #cc33ff;
+}
+.fa-500px:hover {
+    color: #fff;
+}
+.fa-google-plus:hover {
+    color: #dd4b39;
+}
+.fa-weibo:hover {
+    color: #cc0044;
+}
+.fa-envelope:hover {
+    color: #e6b800;
+}
