@@ -62,36 +62,40 @@ li{
     height: 96px;
     width: 96px;
 }
-a:link { 
-    color: grey;
-}
-.fa-wikipedia-w:hover {
+
+a { color: #666666; }
+a:visited { color: #666666; }
+
+.fa-wikipedia-w:hover, .fa-wikipedia-w:active {
     color: #666699;
 }
-.fa-bars:hover {
+.fa-bars:hover, .fa-bars:active {
     color: #0099ff;
 }
-.fa-tree:hover {
+.fa-tree:hover, .fa-tree:active {
     color: #00802b;
 }
-.fa-facebook:hover {
+.fa-facebook:hover, .fa-facebook:active {
     color: #3B5998;
 }
-.fa-twitter:hover {
+.fa-twitter:hover, .fa-twitter:active {
     color: #55acee;
 }
-.fa-instagram:hover {
+.fa-instagram:hover, .fa-instagram:active {
     color: #cc33ff;
 }
-.fa-500px:hover {
+.fa-telegram:hover, .fa-telegram:active {
+    color: #66ccff;
+}
+.fa-500px:hover, .fa-500px:active {
     color: #fff;
 }
-.fa-google-plus:hover {
+.fa-google-plus:hover, .fa-google-plus:active {
     color: #dd4b39;
 }
-.fa-weibo:hover {
+.fa-weibo:hover, .fa-weibo:active {
     color: #cc0044;
 }
-.fa-envelope:hover {
+.fa-envelope:hover, .fa-envelope:active {
     color: #e6b800;
 }
