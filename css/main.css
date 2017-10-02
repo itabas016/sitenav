@@ -9,6 +9,7 @@ html {
 }
 
 body {
+    background-image: url("http://area.sinaapp.com/bingImg");
     font-family: "Helvetica Neue", "Segoe UI", Arial, Sans-Serif;
     font-size: 14px;
     margin: 0px auto;
