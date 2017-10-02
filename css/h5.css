@@ -39,9 +39,9 @@ a {
 	padding: 20px 10px 10px 10px;
 	position: relative;
     display: block;
-    background-image: url("https://area.sinaapp.com/bingImg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
     text-align: center;
 }
@@ -115,6 +115,15 @@ a {
 .top span.right a {
 	float: left;
 	display: block;
+}
+/* Header Info Style */
+.info {
+    margin: 10px;
+    padding: 5px;
+    width: 90%;
+    height: 50px;
+    position: relative;
+    float: right;
 }
 /* Avatar Style */
 .avatar {
