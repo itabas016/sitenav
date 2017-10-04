@@ -2,9 +2,9 @@
 
 function BingWallpaper(idx=0){
     var req = new XMLHttpRequest();
-    var url = "https://www.bing.com/HPImageArchive.aspx?format=js&idx=" + idx + "&n=1&mkt=en-US";
+    var url = "https://itabas.com/proxy/HPImageArchive.aspx?format=js&idx=" + idx + "&n=1&mkt=zh-CN";
     req.open('POST', url, true);
-    req.setRequestHeader('Access-Control-Allow-Origin', 'https://www.bing.com');
+    req.setRequestHeader('Access-Control-Allow-Origin', '*');
     req.setRequestHeader('Access-Control-Allow-Methods', 'GET, POST, PATCH, PUT, DELETE, OPTIONS');
     req.setRequestHeader('Access-Control-Allow-Headers', 'Origin, Content-Type, X-Auth-Token');
     req.onreadystatechange = function () {
