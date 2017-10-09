@@ -12,7 +12,7 @@ function BingWallpaper(idx=0){
         var resp = JSON.parse(this.responseText);
         var suffix = resp.images[0].url;
         var title = resp.images[0].copyright;
-        document.getElementsByTagName("header")[0].style.backgroundImage = 'url("' + 'https://bing.com' + suffix + '")';
+        document.getElementsByTagName("header")[0].style.backgroundImage = 'url("' + 'https://cn.bing.com' + suffix + '")';
         document.getElementsByClassName("info")[0].title = title;
     }};
     req.send('');
