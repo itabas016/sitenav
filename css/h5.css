@@ -178,7 +178,8 @@ a {
 }
 /* Tag Style */
 .tag {
-    font-size: 14px;
+	font-size: 14px;
+	height: 25px;
     padding: 0;
 	margin: 0 5px 0 5px;
 	position: relative;
